@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" 
+              href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" type="text/css" />
+    </head>
+    <body>
+    <center>
+        <div class="list-group jumbotron jumbotron-fluid mt-4">
+            <h5 class="display-100 alert alert-success">OPCIONES DISPONIBLES</h5>
+            <div class="alert alert-warning" role="alert">
+                <h4>Mantenimientos</h4>
+                <a href="/WebSistema/controladorPrincipal?accion=listadoAreas" class="list-group-item list-group-item-action list-group-item-secondary" 
+                   target="derecha">Registro Areas</a>
+                <a href="/WebSistema/controladorPrincipal?accion=listadoAlumnos" class="list-group-item list-group-item-action list-group-item-secondary" 
+                   target="derecha">Registro Alumnos</a>
+                <a href="/WebSistema/controladorPrincipal?accion=listadoCursos" class="list-group-item list-group-item-action list-group-item-secondary" 
+                   target="derecha">Registro Cursos</a>
+            </div>
+            <div class="alert alert-primary" role="alert">
+                <h4>Operaciones</h4>
+                <a href="/WebSistema/controladorPrincipal?accion=matriculaMostrarAlumnos&modo=Lista" class="list-group"
+                   target="derecha">Crear Matricula</a>
+                
+            </div>
+        </div>
+    </center>
+</body>
+</html>
